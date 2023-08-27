@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Tulpen+One&display=swap');
+.out {
+    background-color: #fcfcf770;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0px;
+  }
+.logo{
+    padding: 20px;
+    text-align:center;
+    background-color: #fcfcf770;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 23px;
+    color: gray;
+}
+  #pear{
+    height: 70px;
+    width: 70px;
+  }
+  
+  .container {
+    margin-bottom: 60px;
+    height: 80px;
+    width: 80px;
+    outline: solid #E6E6E3 1px;
+    background-color: #fcfcf7;
+    padding: 15px;
+    border-radius: 5px;
+    transition: box-shadow 0.3s; 
+    position: relative;
+  }
+ 
+  .hovergif {
+    left: 0;
+    top: 0;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .container:hover .hovergif {
+    opacity: 1; 
+  }
+  
+  .container:hover {
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  }
+  
+  #home, #notification, #video, #message {
+    height: 50px;
+    width: 50px;
+  }
+
+  .last{
+    padding: 30px;
+
+  }
+  
+  #person{
+    height: 60px;
+    width: 60px;
+  }
